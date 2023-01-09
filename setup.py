@@ -282,6 +282,7 @@ setup(
         "tqdm",
     ],
     tests_require=["nose", "coverage"],
+    setup_requires=['wheel'],
     extras_require={
         "docs": [
             "sphinx_rtd_theme",
